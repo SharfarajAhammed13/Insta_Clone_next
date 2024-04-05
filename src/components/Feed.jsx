@@ -12,10 +12,12 @@ export default function Feed() {
         </section>
 
         {/* {profile on right side} */}
-
-        <section className='hidden md:inline-grid md:col-span-1'>
+        <section>
+        <div className='fixed w-[380px]'>
             <MiniProfile/>
+        </div>
         </section>
+        
     </main>
   )
 }
